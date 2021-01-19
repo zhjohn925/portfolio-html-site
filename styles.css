@@ -54,7 +54,7 @@ body {
 
 .portfolio-items-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;    /* each grid (column) has 1fr; three column in one row */
 }
 
 .portfolio-item-wrapper {
