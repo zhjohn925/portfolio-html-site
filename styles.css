@@ -70,8 +70,8 @@ body {
 }
 
 .img-text-wrapper {
-  position: absolute;
-  top: 0;
+  position: absolute;    <!-- force to place the text on the top of image -->
+  top: 0;                <!-- start at the top -->
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,6 +97,7 @@ body {
   font-weight: 600;
 }
 
+/* logo image */
 .logo-wrapper img {
   width: 50%;
   margin-bottom: 20px;
