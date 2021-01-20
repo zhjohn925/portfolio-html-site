@@ -35,7 +35,7 @@ body {
 }
 
 .active-nav-link a {
-  color: black !important;
+  color: black !important;   /* Need to overwrite default color ! */
 }
 
 .nav-link-wrapper a {
