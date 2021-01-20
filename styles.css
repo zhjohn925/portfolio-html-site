@@ -82,22 +82,24 @@ body {
   padding-right: 100px;
 }
 
-.img-text-wrapper .subtitle {
-  transition: 1s;
-  color: transparent;
-}
-
 .image-blur {
   transition: 1s;
   filter: brightness(10%);
 }
 
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  font-weight: 600;     /* Do not miss this one. Have to be same with .img-text-wrapper:hover; otherwise, the font changes when the mouse hovers over */
+  color: transparent;   /* starting color */
+}
+
+/* Only change to lightseagreen when the mouse hovers over */
 .img-text-wrapper:hover .subtitle {
   color: lightseagreen;
   font-weight: 600;
 }
 
-/* logo image */
+/* logo image inside 'img-text-wrapper'*/
 .logo-wrapper img {
   width: 50%;
   margin-bottom: 20px;
