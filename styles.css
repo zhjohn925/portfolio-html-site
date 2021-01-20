@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;   /* default to use "Lato" fonts from fonts.google.com, if you can not access to it, then use sans-serif */
   margin: 0px;    /* default margin may be 8px */
 }
 
