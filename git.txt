@@ -23,6 +23,8 @@ The key's randomart image is:
 |       .o        |
 +----[SHA256]-----+
 
+$  clip < ~/.ssh/id_ed25519.pub
+
 Bear@DESKTOP-N51CV2R MINGW64 ~
 $  ssh-keygen -t rsa -C "zhjohn925@gmail.com"
 Generating public/private rsa key pair.
