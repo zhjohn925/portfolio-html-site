@@ -23,27 +23,11 @@ The key's randomart image is:
 |       .o        |
 +----[SHA256]-----+
 
+# copy public key to clipboard
 $  clip < ~/.ssh/id_ed25519.pub
 
-Bear@DESKTOP-N51CV2R MINGW64 ~
-$  ssh-keygen -t rsa -C "zhjohn925@gmail.com"
-Generating public/private rsa key pair.
-Enter file in which to save the key (/c/Users/Bear/.ssh/id_rsa):
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in /c/Users/Bear/.ssh/id_rsa
-Your public key has been saved in /c/Users/Bear/.ssh/id_rsa.pub
-The key fingerprint is:
-SHA256:E+ML28rw6k4ePy1xw1HGEFWa2kGUYaZizeL9G1VnXYA zhjohn925@gmail.com
-The key's randomart image is:
-+---[RSA 3072]----+
-|        o*B+.....|
-|       o ==oE   o|
-|      + *o+   . +|
-|     o =.= . . o |
-|      o.S.. .    |
-|      .+++ .     |
-|    + .+o.o      |
-|   o *o..  o     |
-|   o=.=o  .      |
-+----[SHA256]-----+
+# add ssh key to git account
+# Settings -> SSH AND GHP keys
+# add new SSH keys
+# copy the above public key from clipboard
+
