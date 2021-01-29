@@ -27,7 +27,7 @@ The key's randomart image is:
 $  clip < ~/.ssh/id_ed25519.pub
 
 # add ssh key to git account
-# Settings -> SSH AND GHP keys
-# add new SSH keys
+# Settings -> SSH and GPG keys
+# add "New SSH keys"
 # copy the above public key from clipboard
 
