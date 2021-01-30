@@ -1,0 +1,56 @@
+/***********************
+ master styles 
+***********************/
+body {
+    margin: 0px;   /* default is 8 px */
+}
+
+/* grid has some similarity to flexbox */
+/* give us ability to align the items */ 
+/* 1fr: one fractional unit. if only one column,this colomn has 100% width */
+.container {
+    display: grid;
+    grid-template-columns: 1fr; 
+}
+
+/***********************
+ nav styles 
+***********************/
+/* flexbox helps align contents on the page */
+.nav-wrapper {
+    display: flex;   /* place the first childs'div from left to right */
+    justify-content: space-between;   
+                     /* Use all available space to justify between the first childs'div */
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;  /* place Home and About from left to right */
+}
+
+/* select the div tag under .nav-wrapper > .left-side */
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;    /* nice space between Home and About */
+    font-size: 0.9em;      /* default is 1em. 0.9em is 90% of 1em */
+    text-transform: uppercase;  /* capitalize Home and About */
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent; /* add transparent bottom border */
+    transition: border-bottom 0.5s;  /* add animation to border-bottom */
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;   /* remove underline */
+    transition: color 0.5s;  /* add animation to color */
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
