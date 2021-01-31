@@ -2,6 +2,7 @@
  master styles 
 ***********************/
 body {
+    font-family: "Lato", sans-serif;  /* if Lato is not available, use san-serif */
     margin: 0px;   /* default is 8 px */
 }
 
@@ -53,6 +54,15 @@ body {
 
 .nav-link-wrapper a:hover {
     color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+/* !important used to overwrite the default behavior */
+.active-nav-link a {
+    color: black !important;
 }
 
 /***********************
@@ -116,4 +126,25 @@ body {
 .img-darken {
     transition: 1s;
     filter: brightness(10%)
+}
+
+
+/***********************
+ About page styles 
+***********************/
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+    color: lightseagreen;
 }
